@@ -1,0 +1,68 @@
+name: Moderation
+version: 0.1-beta
+main: com.arctyll.moderation.Moderation
+api-version: 1.8
+author: Arctyll
+description: Advanced moderation plugin with multi-language support
+
+permissions:
+  punishment.*:
+    description: Grants all punishment permissions
+    children:
+      punishment.mute: true
+      punishment.unmute: true
+      punishment.ban: true
+      punishment.unban: true
+      punishment.tempban: true
+      punishment.kick: true
+      punishment.notify: true
+  punishment.mute:
+    description: Allows muting players
+    default: op
+  punishment.unmute:
+    description: Allows unmuting players
+    default: op
+  punishment.ban:
+    description: Allows banning players
+    default: op
+  punishment.unban:
+    description: Allows unbanning players
+    default: op
+  punishment.tempban:
+    description: Allows temp banning players
+    default: op
+  punishment.kick:
+    description: Allows kicking players
+    default: op
+  punishment.notify:
+    description: Allows receiving punishment notifications
+    default: op
+
+commands:
+  mute:
+    description: Mute a player
+    usage: /mute <player> <duration> [reason]
+    permission: punishment.mute
+  unmute:
+    description: Unmute a player
+    usage: /unmute <player>
+    permission: punishment.unmute
+  ban:
+    description: Permanently ban a player
+    usage: /ban <player> [reason]
+    permission: punishment.ban
+  unban:
+    description: Unban a player
+    usage: /unban <player>
+    permission: punishment.unban
+  tempban:
+    description: Temporarily ban a player
+    usage: /tempban <player> <duration> [reason]
+    permission: punishment.tempban
+  kick:
+    description: Kick a player
+    usage: /kick <player> [reason]
+    permission: punishment.kick
+  language:
+    description: Change your language preference
+    usage: /language [language]

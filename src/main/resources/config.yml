@@ -1,0 +1,29 @@
+# Plugin Configuration
+
+# Available languages are automatically detected from the languages folder
+default-language: "en"
+
+# Cleanup task settings
+cleanup:
+  # How often to run cleanup task (in minutes)
+  interval: 1
+  # Whether to log cleanup actions
+  log-cleanup: true
+
+appeal:
+  # Website URL where players can appeal punishments
+  website: "https://yourserver.com/appeal"
+
+punishment:
+  # Maximum punishment duration in days (0 = no limit)
+  max-duration: 365
+  # Whether to broadcast punishments to staff
+  broadcast-to-staff: true
+  # Whether to log all punishments to console
+  log-punishments: true
+
+time-format:
+  # Date format for displaying punishment expiry times
+  date-format: "yyyy-MM-dd HH:mm:ss"
+  # Timezone (leave empty for server timezone)
+  timezone: ""

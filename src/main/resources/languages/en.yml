@@ -1,0 +1,271 @@
+# English Language File (en.yml)
+
+# General Settings
+appeal-site: "https://yourserver.com/appeal"
+default-reason: "No reason specified"
+
+# System Messages
+no-permission: |
+
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  &7You don't have permission to use this command!
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+players-only: |
+
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  &7This command can only be used by players!
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+player-not-found: |
+
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  &7Player '&f{player}&7' does not exist!
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+player-must-be-online: |
+
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  &7Player '&f{player}&7' must be online to be punished!
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  
+invalid-duration: |
+
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  &c&lInvalid Duration!
+  
+  &7Use format: &f1s, 5m, 2h, 3d, 1w
+  &7Examples: &f30m &7(30 minutes), &f2h &7(2 hours), &f1d &7(1 day)
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# Language Command Messages
+language-info: |
+
+  &a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  &a&lLanguage Settings
+  
+  &7Current language: &f{current}
+  &7Available languages: &f{available}
+  
+  &7Use &f/language <lang> &7to change your language
+  &a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+invalid-language: |
+
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  &c&lInvalid Language!
+  
+  &7Language '&f{language}&7' is not available!
+  &7Available languages: &f{available}
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+language-changed: |
+
+  &a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  &a&lLanguage Changed!
+  
+  &7Your language has been changed to: &f{language}
+  &a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# Command Usage Messages
+mute-usage: |
+
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  &c&lInvalid Usage!
+  
+  &7Correct usage: &f/mute <player> <duration> [reason]
+  &7Example: &f/mute Whoever 30m Spamming
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+unmute-usage: |
+
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  &c&lInvalid Usage!
+  
+  &7Correct usage: &f/unmute <player>
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ban-usage: |
+
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  &c&lInvalid Usage!
+  
+  &7Correct usage: &f/ban <player> [reason]
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+unban-usage: |
+
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  &c&lInvalid Usage!
+  
+  &7Correct usage: &f/unban <player>
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+tempban-usage: |
+
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  &c&lInvalid Usage!
+  
+  &7Correct usage: &f/tempban <player> <duration> [reason]
+  &7Example: &f/tempban Whoever 1d Cheating
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+kick-usage: |
+
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  &c&lInvalid Usage!
+  
+  &7Correct usage: &f/kick <player> [reason]
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# Status Messages
+already-muted: |
+
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  &7Player &f{player} &7is already muted!
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+not-muted: |
+
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  &7Player &f{player} &7is not muted!
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+cannot-mute-self: |
+
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  &7You cannot mute yourself!
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+already-banned: |
+
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  &7Player &f{player} &7is already banned!
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+not-banned: |
+
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  &7Player &f{player} &7is not banned!
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+cannot-ban-self: |
+
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  &7You cannot ban yourself!
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+cannot-kick-self: |
+
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  &7You cannot kick yourself!
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+unban-success: |
+
+  &a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  &7Successfully unbanned &f{player}&7!
+  &a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# Player Punishment Messages
+mute-message: |
+
+  &c&l&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  &c&lYou have been muted!
+  
+  &7Reason: &f{reason}
+  &7Duration: &f{duration}
+  &7Mute ID: &f#{mute-id}
+  
+  &7This mute will automatically expire.
+  
+  &7Think this punishment was unfair?
+  &7Appeal at: &b{appeal-site}
+  &c&l&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+unmute-message: |
+
+  &a&l&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  &a&lYou have been unmuted!
+  
+  &7You can now chat again.
+  &7Please follow the server rules.
+  &a&l&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+mute-reminder: |
+
+  &c&l&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  &c&lYou are currently muted!
+  
+  &7Time remaining: &f{time-remaining}
+  &7Reason: &f{reason}
+  &7Mute ID: &f#{mute-id}
+  
+  &7Please wait until your mute expires.
+  
+  &7Think this punishment was unfair?
+  &7Appeal at: &b{appeal-site}
+  &c&l&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ban-message: |
+ 
+  &c&lYou are permanently banned from this server!
+  
+  &7Reason: &f{reason}
+  &7Ban ID: &f#{ban-id}
+  
+  &7Think this punishment was unfair?
+  &7Appeal at: &b{appeal-site}
+
+tempban-message: |
+
+  &c&lYou are temporarily banned from this server!
+  
+  &7Reason: &f{reason}
+  &7Duration: &f{duration}
+  &7Ban ID: &f#{ban-id}
+  
+  &7Your ban will be removed on &f{expires}
+  
+  &7Think this punishment was unfair?
+  &7Appeal at: &b{appeal-site}
+
+
+kick-message: |
+
+  &c&lYou havs been kicked!
+  
+  &7Reason: &f{reason}
+  
+  &7You can reconnect immediately.
+
+# Staff Broadcast Messages
+mute-broadcast: |
+
+  &8[&6PUNISHMENT&8] &a{player} &8(&7{uuid}&8) &7has been &amuted &7by &a{staff} &7for &a{duration}
+  &8└─ &7Reason: &f{reason} &8| &7Expires: &f{expires}
+
+unmute-broadcast: |
+
+  &8[&6PUNISHMENT&8] &a{player} &8(&7{uuid}&8) &7has been &aunmuted &7by &a{staff}
+  &8└─ &7Original: &f{original-reason} &7by &f{original-staff}
+
+ban-broadcast: |
+
+  &8[&6PUNISHMENT&8] &c{player} &8(&7{uuid}&8) &7has been &cpermanently banned &7by &c{staff}
+  &8└─ &7Reason: &f{reason} &8| &7Ban ID: &f#{ban-id} &8| &7IP: &f{ip}
+
+unban-broadcast: |
+
+  &8[&6PUNISHMENT&8] &a{player} &8(&7{uuid}&8) &7has been &aunbanned &7by &a{staff} &8(&7{ban-type} ban&8)
+  &8└─ &7Original: &f{original-reason} &7by &f{original-staff} &8| &7Ban ID: &f#{ban-id}
+
+tempban-broadcast: |
+
+  &8[&6PUNISHMENT&8] &c{player} &8(&7{uuid}&8) &7has been &ctemporarily banned &7by &c{staff} &7for &c{duration}
+  &8└─ &7Reason: &f{reason} &8| &7Ban ID: &f#{ban-id} &8| &7Expires: &f{expires} &8| &7IP: &f{ip}
+
+kick-broadcast: |
+
+  &8[&6PUNISHMENT&8] &e{player} &8(&7{uuid}&8) &7has been &ekicked &7by &e{staff}
+  &8└─ &7Reason: &f{reason} &8| &7IP: &f{ip}
